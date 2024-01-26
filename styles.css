@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+textarea, select, button {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease; /* Agregué una transición para todos los elementos con efecto de 0.3s */
+}
+
+button {
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #207dbb;
+}
+
+button, select {
+    cursor: pointer;
+}
+
+button.copy {
+    background-color: #4caf50;
+}
+
+button.copy:hover {
+    background-color: #45a049;
+}
+
+/* Agregué una animación específica para cuando se hace clic en los botones */
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}

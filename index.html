@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador/Desencriptador</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador/Desencriptador</h1>
+        <label for="text">Texto:</label>
+        <textarea id="text" placeholder="Ingresa el texto"></textarea>
+
+        <label for="option">Opción:</label>
+        <select id="option">
+            <option value="encrypt">Encriptar</option>
+            <option value="decrypt">Desencriptar</option>
+        </select>
+
+        <button onclick="processText()">Procesar</button>
+
+        <label for="result">Resultado:</label>
+        <textarea id="result" readonly></textarea>
+
+        <button onclick="copyToClipboard()">Copiar al Portapapeles</button>
+        <footer>
+            <div class="card-body">
+                <h5 class="card-title">Desarrollado por:</h5>
+                <p class="card-text">Jhonnier Zambrano</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
